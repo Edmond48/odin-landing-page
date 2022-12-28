@@ -32,7 +32,8 @@
     flex: 2.5;
 }
 
-.nav-links {
+.nav-links,
+.info-gallery {
     display: flex;
 }
 
@@ -88,4 +89,46 @@
 
 .sign-up-btn#hero {
     border: 0px;
+}
+
+.info-gallery {
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 10px 17%;
+}
+
+.info-gallery>p {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px;
+}
+
+.info-gallery>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-gallery span{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 20px;
+}
+
+.info-gallery img {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: inherit;
+    height: 150px;
+    flex: 2 1 auto;
+}
+
+.info-gallery span>p {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 5px;
+    flex: 1;
 }
