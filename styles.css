@@ -33,7 +33,9 @@
 }
 
 .nav-links,
-.info-gallery {
+.info-gallery,
+.quote,
+.call-to-action {
     display: flex;
 }
 
@@ -53,7 +55,7 @@
 }
 
 .hero-text#sub {
-    color: #E5E7EB;
+    color: #E5E7EBD8;
     font-size: 18px;
     line-height: 1.5em;
 }
@@ -79,12 +81,15 @@
 
 .sign-up-btn {
     background-color: #3882F6;
-    height: 35px;
+    height: fit-content;
     width: 135px;
     border-radius: 10px;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-style: solid;
 }
 
 .sign-up-btn#hero {
@@ -133,5 +138,54 @@
     font-size: 15px;
     font-weight: 550;
     margin-top: 5px;
+    flex: 1;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 10% 20%;
+}
+
+.quote > #body {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.quote > #reference {
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 7% 13%;
+    padding: 3% 10%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-to-action > span {
+    flex: 4;
+}
+
+.call-to-action #main{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.call-to-action #sub {
+    color: #E5E7EBD8;
+    font-size: 15px;
+}
+
+.sign-up-btn#call {
+    border-color: #F9FAE8;
     flex: 1;
 }
