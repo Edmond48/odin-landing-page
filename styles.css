@@ -187,5 +187,13 @@
 
 .sign-up-btn#call {
     border-color: #F9FAE8;
+    margin-left: 10px;
     flex: 1;
+}
+
+.footer {
+    color: #F9FAF8B8;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
